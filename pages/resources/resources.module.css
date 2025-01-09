@@ -1,0 +1,27 @@
+/* Text container */
+.textContainerRight {
+  flex: 1; /* Take remaining space */
+  max-width: 30vw; /* Set max width for text area */
+  margin-left: 100px;
+}
+
+/* Text container */
+.textContainerLeft {
+  flex: 1; /* Take remaining space */
+  max-width: 30vw; /* Set max width for text area */
+  margin-right: 100px;
+}
+/* Optional: Adjust paragraph style */
+.description .p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--primary-color);
+  max-width: 30vw;
+  margin: 500px 0;
+}
+
+.iconAndText {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  gap: 8px; /* Adds space between the icon and text */
+}

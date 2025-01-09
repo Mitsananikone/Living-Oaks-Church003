@@ -1,0 +1,125 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+.parallelogramContent {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    transform: skew(20deg);
+}
+
+.parallelogramImage{
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    transform: skew(20deg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 15% 20%, 85% 20%);
+    overflow: hidden;
+}
+
+.title {
+    color: var(--secondary-color);
+    font-size: "2.6rem";
+    font-style: "normal";
+}
+
+.seperationLine {
+    width: "100%";
+    height: "2px";
+    background:
+      "linear-gradient(to right, white 33%, rgba(255, 255, 255, 0.5) 33%, rgba(255, 255, 255, 0.5) 100%)";
+    margin-top: "40px";
+}
+
+
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%); /* Start off-screen to the left */
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0); /* End in the original position */
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%); /* Start off-screen to the right */
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0); /* End in the original position */
+      opacity: 1;
+    }
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  .animateLeft {
+    animation: slideInLeft 1.5s ease-out forwards; /* Control timing */
+  }
+  
+  .animateRight {
+    animation: slideInRight 1.5s ease-out forwards; /* Control timing */
+  }
+  
+/* Overlay images */
+.overlayImage {
+  width: 50%; /* Adjust width as needed */
+  height: auto;
+  object-fit: cover;
+  transition: opacity 1s ease-out; /* Smooth fade-out transition */
+  opacity: 1; /* Default opacity */
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+/* Overlay container */
+.overlayContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-color); /* Optional background color */
+  z-index: 1000; /* Ensure it's in front of everything */
+}
+
+  
+  /* Parallelogram animations */
+  .hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .animateLeftBackground {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .animateRightBackground {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
