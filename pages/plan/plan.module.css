@@ -11,7 +11,9 @@
   padding: 1rem;
   margin: 0 auto;
   max-width: 1200px; /* Optional, adjust as needed */
-
+  position: relative; /* Ensure position can be adjusted */
+  top: 150px; /* Shift the block 100px lower */
+  margin-bottom: 150px;
 }
 
 .header {
@@ -51,7 +53,7 @@
   display: flex;
   align-items: center; /* Vertically align parallelogram and text */
   margin-bottom: 0.5rem;
-  gap: 1rem; /* Space between the parallelogram and text */
+  gap: 2rem; /* Space between the parallelogram and text */
 
 }
 

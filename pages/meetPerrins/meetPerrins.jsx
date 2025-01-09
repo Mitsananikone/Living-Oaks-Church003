@@ -1,4 +1,5 @@
 import React from "react";
+import "@/styles/globals.css";
 
 function MeetPerrins() {
   return (
@@ -15,7 +16,7 @@ function MeetPerrins() {
           <img
             src="/images/Cperrin.png"
             alt="Cary Perrin"
-            className="profileImage"
+            className="profileImage borderedImage"
           />
 
           {/* Text */}
@@ -39,7 +40,7 @@ function MeetPerrins() {
           <img
             src="/images/Dperrin.png"
             alt="Danielle Perrin"
-            className="profileImage"
+            className="profileImage borderedImage"
           />
 
           {/* Text */}
@@ -65,8 +66,11 @@ function MeetPerrins() {
           <img
             src="/images/Fperrin.png"
             alt="Family Perrin"
-            className="profileImageSquare"
+
+            className="profileImageSquare borderedImage"
+            
           />
+
 
           {/* Text */}
           <p className="description">
@@ -81,7 +85,6 @@ function MeetPerrins() {
             Houston Area.
           </p>
         </div>
-
       </div>
     </div>
   );
