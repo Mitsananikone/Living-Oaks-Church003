@@ -110,7 +110,7 @@ function Mission() {
             growing areas connected to Houston. The Alvin ISD is the 7th fastest
             growing school district in Texas, with a projection to grow by 7000
             students in the next 10 years.
-            <br />
+            <br /> <br/>
             Alvin is next on TxDOT's plan to expand highway 99, projecting 4000
             new home builds during that time. The fact is, Alvin is going to
             need more Gospel-centered churches.

@@ -92,8 +92,7 @@ a {
 
 .homepageBackground {
   position: relative; /* Ensure position can be adjusted */
-  top: 100px; /* Shift the block 100px lower */
-  margin-bottom: 200px;
+  top: -100px; /* Shift the block 100px lower */
 }
 
 

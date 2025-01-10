@@ -90,7 +90,54 @@ function Resources() {
           budgets:
         </p>
         {/* Budget Details */}
-        {/* (Keep your existing budget details here) */}
+        <ul class="no-bullets">
+          <li>
+          <div className={styles.iconAndText}>
+           
+          <h2 style={{ margin: "20px", display: "flex", alignItems: "center", gap: "20px" }}> <i class="fa-solid fa-seedling fa-sm"></i> Year 1 budget: $100,000</h2>
+            </div>
+            <ul class="no-bullets">
+            <li style={{ marginLeft: "50px" }}>
+              75% from partners / 25% from congregants
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <br />
+
+        <ul class="no-bullets">
+          <li>
+            <div className={styles.iconAndText}>
+             
+            <h2 style={{ margin: "20px", display: "flex", alignItems: "center", gap: "20px" }}>
+  <i className="fa-solid fa-seedling fa-lg"></i>
+  Year 2 budget: $100,000
+</h2>
+            </div>
+            <ul class="no-bullets">
+            <li style={{ marginLeft: "50px" }}>
+                50% from partners / 50% from congregants
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <br />
+
+        <ul class="no-bullets">
+          <li>
+            <div className={styles.iconAndText}>
+              
+            <h2 style={{ margin: "20px", display: "flex", alignItems: "center", gap: "20px" }}><i class="fa-solid fa-tree fa-xl"></i>Year 3 budget: $100,000</h2>
+            </div>
+            <ul class="no-bullets">
+            <li style={{ marginLeft: "50px" }}>
+              25% from partners / 75% from congregants
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   );
