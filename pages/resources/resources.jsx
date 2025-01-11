@@ -8,7 +8,7 @@ function Resources() {
       number: 1,
       title: "Portable Equipment",
       description:
-        "We need a customized trailer with roll-out storage of all the equipment that services will need.",
+        "We need a customized trailerfor for all of the equipment and items that the services will need, as well as roll-out storage ",
       imageUrl: "/images/resources1.png", // Example image URL
     },
     {

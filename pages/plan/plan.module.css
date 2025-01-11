@@ -36,7 +36,7 @@
   max-width: 300px; /* Adjust max width as needed */
   height: 400px; /* Maintain aspect ratio */
   object-fit: cover;
-  border: 5px solid var(--secondary-color); /* Optional border */
+  border: 3px solid var(--primary-color); /* Optional border */
   border-radius: 8px; /* Optional rounded corners */
 
 }

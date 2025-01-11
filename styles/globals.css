@@ -300,7 +300,7 @@ button:hover {
   height: 150px; /* Make circular */
   object-fit: cover; /* Ensure the image fits well */
   border-radius: 50%; /* Circular border */
-  border: 5px solid #897349; /* Brown color */
+  border: 3px solid var(--primary-color); /* Brown color */
   border-radius: 8px; /* Optional: Rounded corners for square images */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
 }
@@ -327,7 +327,7 @@ button:hover {
   width: 200px;  /* Set width of the square image */
   height: 200px; /* Set height of the square image */
   object-fit: cover; /* Ensure the image fits within the square */
-  border: 5px solid var(--secondary-color); /* Optional: border for styling */
+  border: 3px solid var(--secondary-color); /* Optional: border for styling */
 }
 
 /* Text description */

@@ -1,5 +1,6 @@
 import React from "react";
 import "@/styles/globals.css";
+import styles from "./meetPerrins.module.css"
 
 function MeetPerrins() {
   return (
