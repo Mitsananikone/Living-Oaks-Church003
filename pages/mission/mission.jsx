@@ -1,7 +1,7 @@
 import React from "react";
 import Parallelogram from "@/components/parallelogram/parallelogram";
-import "@/styles/globals.css";
 import styles from "./mission.module.css";
+// import "@/styles/globals.css";
 
 function Mission() {
   const missionData = [

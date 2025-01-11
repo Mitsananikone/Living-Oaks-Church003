@@ -13,17 +13,20 @@
 }
 
 @font-face {
-  font-family: 'Coco Pro Bold'; /* Font name to reference */
-  src: url('/fonts/cocomat-pro-bold.ttf') format('truetype'); /* Path to the font file */
-  font-weight: bold; /* Specify the weight */
-  font-style: normal; /* Specify the style */
-}
-@font-face {
-  font-family: 'Bebas Neue Pro Bold'; /* Name to reference in CSS */
-  src: url('/fonts/bebasneuepro-bold.otf') format('opentype');
+  font-family: 'Coco Pro Bold';
+  src: local('Coco Pro Bold'),
+       url('/fonts/cocomat-pro-bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Bebas Neue Pro Bold';
+  src: local('Bebas Neue Pro Bold'),
+       url('/fonts/bebasneuepro-bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 
 html {

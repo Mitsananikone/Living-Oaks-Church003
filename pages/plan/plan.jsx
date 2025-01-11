@@ -1,7 +1,8 @@
 import React from "react";
-import "@/styles/globals.css";
-import styles from "./plan.module.css";
 import Parallelogram from "@/components/parallelogram/parallelogram";
+import styles from "./plan.module.css";
+
+// import "@/styles/globals.css";
 
 function Plan() {
   return (

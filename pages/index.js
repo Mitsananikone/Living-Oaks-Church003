@@ -3,15 +3,14 @@ import HomePage from "@/pages/home/homepage";
 // import ContactForm from '@/components/contactForm/contactForm';
 
 import React from "react";
-import "../styles/globals.css";
+
 import MeetThePerrins from "./meetPerrins/meetPerrins";
 import Mission from "./mission/mission";
 import Plan from "./plan/plan";
 import Resources from "./resources/resources";
 import About from "./about/about";
 import Contact from "./contact/contact";
-
-import TestFonts from "@/pages/testFonts/testFonts";
+// import "../styles/globals.css";
 
 export default function Home() {
   return (
@@ -61,8 +60,6 @@ export default function Home() {
               <Contact />
             </section>
           </div>
-
-          <TestFonts />
         </div>
       </div>
       {/* </div> */}

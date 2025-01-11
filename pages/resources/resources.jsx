@@ -1,6 +1,6 @@
 import React from "react";
-import "@/styles/globals.css";
 import styles from "./resources.module.css";
+// import "@/styles/globals.css";
 
 function Resources() {
   const resourcesData = [

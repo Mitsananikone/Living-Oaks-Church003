@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Parallelogram from "@/components/parallelogram/parallelogram";
-import "@/styles/globals.css";
 import styles from "./homepage.module.css";
+// import "@/styles/globals.css";
 
 function HomePage() {
   const [showOverlay, setShowOverlay] = useState(true);

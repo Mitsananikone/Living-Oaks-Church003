@@ -1,7 +1,7 @@
 import React from "react";
 import Parallelogram from "@/components/parallelogram/parallelogram";
 import styles from "./about.module.css";
-import "@/styles/globals.css";
+// import "@/styles/globals.css";
 
 function About() {
   return (
