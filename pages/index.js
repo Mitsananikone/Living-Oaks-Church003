@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <div className="centerContainer">
-        {/* <div className="fullScreen"> */}
+ 
 
         <div className="sections">
           
